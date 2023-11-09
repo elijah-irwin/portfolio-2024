@@ -1,0 +1,25 @@
+.navbar {
+  max-width: var(--max-width);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 1rem;
+  margin: auto;
+  padding: 1rem;
+  border: 1px solid;
+  border-radius: var(--border-radius);
+  border-color: var(--border-color);
+  background-color: var(--card-color);
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+}
