@@ -17,7 +17,7 @@
   font-size: larger;
 }
 
-.text:nth-child(2) {
+.text > :nth-child(2) {
   color: var(--text-sub);
 }
 

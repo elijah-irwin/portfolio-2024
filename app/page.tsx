@@ -1,8 +1,16 @@
 import Chip from '@/components/Chip/Chip';
 import styles from './page.module.css';
+
+// Component Cards.
 import IntroCard from '@/components/IntroCard/IntroCard';
 import LocationCard from '@/components/LocationCard/LocationCard';
 import CurrentRoleCard from '@/components/CurrentRoleCard/CurrentRoleCard';
+import DailyStackCard from '@/components/DailyStackCard/DailyStackCard';
+import ExperienceCard from '@/components/ExperienceCard/ExperienceCard';
+import LatestPostCard from '@/components/LatestPostCard/LatestPostCard';
+import ResumeCard from '@/components/ResumeCard/ResumeCard';
+import SocialCards from '@/components/SocialCards/SocialCards';
+import MiscCard from '@/components/MiscCard/MiscCard';
 
 export default function Home() {
   return (
@@ -10,27 +18,12 @@ export default function Home() {
       <IntroCard />
       <CurrentRoleCard />
       <LocationCard />
-      <div className={`${styles.card} ${styles.stack}`}>
-        <Chip text='Daily Stack' icon='💻' />
-      </div>
-      <div className={styles.four}>
-        <div className={styles.card}>GitHub</div>
-        <div className={styles.card}>LinkedIn</div>
-        <div className={styles.card}>Instagram</div>
-        <div className={styles.card}>Email</div>
-      </div>
-      <div className={`${styles.card} ${styles.experience}`}>
-        <Chip text='Experience' icon='🚧' />
-      </div>
-      <div className={`${styles.card} ${styles.post}`}>
-        <Chip text='Latest Post' icon='✒️' />
-      </div>
-      <div className={`${styles.card}`}>
-        <Chip text='Resume' icon='📃' />
-      </div>
-      <div className={`${styles.card}`}>
-        <Chip text='pets' icon='🐶' />
-      </div>
+      <DailyStackCard />
+      <SocialCards />
+      <ExperienceCard />
+      <LatestPostCard />
+      <ResumeCard />
+      <MiscCard />
     </main>
   );
 }

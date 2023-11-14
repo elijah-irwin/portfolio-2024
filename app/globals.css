@@ -1,6 +1,6 @@
 :root {
   /* Common Variables */
-  --max-width: 800px;
+  --max-width: 900px;
   --grid-gap: 1rem;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -128,7 +128,7 @@ a {
   border-radius: var(--border-radius);
   padding: 1.2rem 1rem;
   background-color: var(--card-color);
-  transition: all 0.1s ease-in-out;
+  transition: all 0.15s ease-out;
 }
 
 .card:hover {

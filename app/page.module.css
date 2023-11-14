@@ -5,6 +5,19 @@
   margin: auto;
   padding: 2rem 0;
   grid-template-columns: repeat(2, minmax(200px, 1fr));
+  grid-template-rows: 1fr 1fr;
+}
+
+.main > :nth-child(1) {
+  grid-row: span 2;
+}
+
+.main > :nth-child(4) {
+  grid-column: span 2;
+}
+
+.main > :nth-child(7) {
+  grid-row: span 2;
 }
 
 .card {
@@ -19,24 +32,4 @@
 .card:hover {
   border-color: var(--purple);
   transform: translateY(-2px);
-}
-
-.stack {
-  grid-column: span 2;
-  aspect-ratio: 3 / 1;
-}
-
-.four {
-  display: grid;
-  gap: var(--grid-gap);
-  grid-template-columns: 1fr 1fr;
-}
-
-.experience {
-  aspect-ratio: 1;
-}
-
-.post {
-  grid-row: span 2;
-  aspect-ratio: 1;
 }
