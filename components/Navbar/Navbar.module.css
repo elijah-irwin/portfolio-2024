@@ -1,15 +1,16 @@
 .navbar {
-  max-width: var(--max-width);
+  max-width: 600px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 1rem;
   margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
   padding: 0.6rem 0.8rem;
-  border: 1px solid;
+  border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
-  border-color: var(--border-color);
   background-color: var(--card-color);
   z-index: 1000;
 }
@@ -21,7 +22,7 @@
 }
 
 .image {
-  border: 2px solid purple;
+  border: 2px solid var(--border-color);
   border-radius: 100%;
 }
 
@@ -36,6 +37,7 @@
 
 .job {
   font-size: small;
+  color: var(--text-accent);
 }
 
 .links {

@@ -12,7 +12,7 @@ export default function Navbar() {
           height={50}
           quality={100}
           src={headshot}
-          alt='headshot of Mak Irwin'
+          alt='Headshot of Mak Irwin'
           className={styles.image}
         />
         <div className={styles.text}>
