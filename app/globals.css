@@ -1,5 +1,7 @@
 :root {
-  --max-width: 1000px;
+  /* Common Variables */
+  --max-width: 800px;
+  --grid-gap: 1rem;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
@@ -47,8 +49,10 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
 
+    /* Specific Variables */
     --border-color: #474747;
     --card-color: #202020;
+    --chip-bg: #000000;
 
     --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
     --secondary-glow: linear-gradient(

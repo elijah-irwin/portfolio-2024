@@ -1,6 +1,6 @@
 .main {
   display: grid;
-  gap: 2rem;
+  gap: var(--grid-gap);
   max-width: var(--max-width);
   margin: auto;
   padding: 2rem 0;
@@ -11,13 +11,19 @@
   border: 1px solid;
   border-color: var(--border-color);
   border-radius: var(--border-radius);
-  padding: 2rem;
+  padding: 1.2rem 1rem;
   background-color: var(--card-color);
 }
 
 .intro {
   grid-row: span 2;
   aspect-ratio: 1;
+}
+
+.location {
+  background-image: url('../assets/guelph-map-min.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .stack {
@@ -27,7 +33,7 @@
 
 .four {
   display: grid;
-  gap: 2rem;
+  gap: var(--grid-gap);
   grid-template-columns: 1fr 1fr;
 }
 
