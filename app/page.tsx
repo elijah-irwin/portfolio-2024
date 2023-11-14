@@ -1,6 +1,3 @@
-import Chip from '@/components/Chip/Chip';
-import styles from './page.module.css';
-
 // Component Cards.
 import IntroCard from '@/components/IntroCard/IntroCard';
 import LocationCard from '@/components/LocationCard/LocationCard';
@@ -12,6 +9,10 @@ import ResumeCard from '@/components/ResumeCard/ResumeCard';
 import SocialCards from '@/components/SocialCards/SocialCards';
 import MiscCard from '@/components/MiscCard/MiscCard';
 
+// Styles.
+import styles from './page.module.css';
+
+// Home Page.
 export default function Home() {
   return (
     <main className={styles.main}>

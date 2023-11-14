@@ -1,0 +1,24 @@
+.footer {
+  margin: 0 auto;
+  max-width: var(--max-width);
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: small;
+}
+
+.dot {
+  height: 6px;
+  width: 6px;
+  border-radius: 100%;
+  background-color: var(--text-accent);
+}

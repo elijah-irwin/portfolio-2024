@@ -16,7 +16,7 @@
   --card-color: #202020;
   --chip-bg: #000000;
   --purple: #6e6cd7;
-  --text-sub: #a6a6a6;
+  --text-accent: #a6a6a6;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -61,6 +61,7 @@
     --card-color: #202020;
     --chip-bg: #000000;
     --purple: #6e6cd7;
+    --text-accent: #a6a6a6;
 
     --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
     --secondary-glow: linear-gradient(
@@ -101,7 +102,7 @@ body {
 }
 
 body {
-  padding: 1rem;
+  padding: 2rem;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,

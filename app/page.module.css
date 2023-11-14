@@ -19,17 +19,3 @@
 .main > :nth-child(7) {
   grid-row: span 2;
 }
-
-.card {
-  border: 1px solid;
-  border-color: var(--border-color);
-  border-radius: var(--border-radius);
-  padding: 1.2rem 1rem;
-  background-color: var(--card-color);
-  transition: all 0.1s ease-in-out;
-}
-
-.card:hover {
-  border-color: var(--purple);
-  transform: translateY(-2px);
-}

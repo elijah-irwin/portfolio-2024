@@ -18,7 +18,7 @@
 }
 
 .text > :nth-child(2) {
-  color: var(--text-sub);
+  color: var(--text-accent);
 }
 
 .image {
