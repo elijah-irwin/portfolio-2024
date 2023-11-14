@@ -1,0 +1,26 @@
+.currentRole {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: larger;
+}
+
+.text:nth-child(2) {
+  color: var(--text-sub);
+}
+
+.image {
+  border-radius: 100%;
+}

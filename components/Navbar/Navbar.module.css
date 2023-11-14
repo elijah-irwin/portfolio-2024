@@ -6,7 +6,7 @@
   position: sticky;
   top: 1rem;
   margin: auto;
-  padding: 1rem;
+  padding: 0.6rem 0.8rem;
   border: 1px solid;
   border-radius: var(--border-radius);
   border-color: var(--border-color);
@@ -17,6 +17,24 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.image {
+  border: 2px solid purple;
+  border-radius: 100%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.name {
+}
+
+.job {
+  font-size: small;
 }
 
 .links {

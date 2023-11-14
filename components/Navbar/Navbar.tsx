@@ -13,10 +13,11 @@ export default function Navbar() {
           quality={100}
           src={headshot}
           alt='headshot of Mak Irwin'
+          className={styles.image}
         />
-        <div>
-          <div>Mak Irwin</div>
-          <div>Software Engineer</div>
+        <div className={styles.text}>
+          <div className={styles.name}>Mak Irwin</div>
+          <div className={styles.job}>Software Engineer</div>
         </div>
       </div>
 

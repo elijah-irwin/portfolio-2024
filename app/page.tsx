@@ -1,18 +1,15 @@
 import Chip from '@/components/Chip/Chip';
 import styles from './page.module.css';
+import IntroCard from '@/components/IntroCard/IntroCard';
+import LocationCard from '@/components/LocationCard/LocationCard';
+import CurrentRoleCard from '@/components/CurrentRoleCard/CurrentRoleCard';
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={`${styles.card} ${styles.intro}`}>
-        <Chip text='Intro' icon='👋' />
-      </div>
-      <div className={`${styles.card} ${styles.currentRole}`}>
-        <Chip text='Current Role' icon='💼' />
-      </div>
-      <div className={`${styles.card} ${styles.location}`}>
-        <Chip text='Location' icon='📍' />
-      </div>
+      <IntroCard />
+      <CurrentRoleCard />
+      <LocationCard />
       <div className={`${styles.card} ${styles.stack}`}>
         <Chip text='Daily Stack' icon='💻' />
       </div>

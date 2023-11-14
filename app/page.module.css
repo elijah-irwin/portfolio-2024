@@ -13,17 +13,12 @@
   border-radius: var(--border-radius);
   padding: 1.2rem 1rem;
   background-color: var(--card-color);
+  transition: all 0.1s ease-in-out;
 }
 
-.intro {
-  grid-row: span 2;
-  aspect-ratio: 1;
-}
-
-.location {
-  background-image: url('../assets/guelph-map-min.png');
-  background-repeat: no-repeat;
-  background-position: center;
+.card:hover {
+  border-color: var(--purple);
+  transform: translateY(-2px);
 }
 
 .stack {
